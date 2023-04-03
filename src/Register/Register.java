@@ -64,7 +64,7 @@ public class Register extends JDialog {
 
                 if (res != 0) {
                     JOptionPane.showMessageDialog(submitButton, "success");
-                }
+                } 
             } catch (Exception ex) {
                     JOptionPane.showMessageDialog(submitButton, "failed");
                 }
